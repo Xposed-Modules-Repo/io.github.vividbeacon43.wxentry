@@ -9,7 +9,7 @@
 
 **聊天**
 
-- 防撤回
+- 防撤回（原消息后标注「已撤回」，撤回的图片仍可查看）
 - 语音防撤回
 - 批量转发语音
 - 一键已读
@@ -43,6 +43,10 @@
 ## 更新
 
 菜单内「检查内核更新」，更新后重启微信生效。
+
+## 源码
+
+本模块的加载器与内核源码发布在 [vividbeacon43/io.github.vividbeacon43.wxentry](https://github.com/vividbeacon43/io.github.vividbeacon43.wxentry)（`source/` 目录），与各版本 APK / 内核一一对应；不含签名密钥与激活记录。
 
 ## 免责声明
 
